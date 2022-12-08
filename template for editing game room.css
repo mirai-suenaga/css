@@ -1,0 +1,71 @@
+/* Custom Game Room template */
+@import url('https://gazellegames.net/static/styles/game_room/style.css');			/* Main style from Gameroom */												
+@import url('https://gazellegames.net/static/styles/game_room/caticons.css');		/* Category icons from Gameroom */
+@import url('https://gazellegames.net/static/styles/game_room/gamethemes.css');		/* Custom game/profile themes */
+@import url('https://gazellegames.net/static/styles/game_room/webLinks.css'); 		/* Weblink icons from Gameroom */
+
+
+/* Main CSS from games (you need to edit the below) */
+
+/* READ from here down */
+/* Load Game Room, find a game torrent page that you like the theme of */
+/* Search for the game name in here: https://gazellegames.net/static/styles/game_room/gamethemes.css */
+/* If you find the code, then great, copy it or take note or just look at it */
+/* Now you will need to copy parts of that below to make your own custom Game Room */
+
+/* Note, you will need to manually make the directory extended correctly but-*/
+/* since I already did it for masseffect below, you can just change the .ttf file */
+/* Find the font family and src url and edit them to here, below is from mass effect */
+font-face {
+	font-family: "MassEffect";
+	src: url('https://gazellegames.net/static/styles/game_room/fonts/masseffect.ttf');}
+
+/* Find the font family and src url and edit them to here, below is from mass effect */
+/* do the same, change the bkg file */
+body {
+    background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/masseffectbkg.jpg') top;
+    background-size: cover;
+    background-attachment: fixed;}
+
+/* This is my custom upscaled background, you can change it if you want. But it's nice */
+.box, table {
+	background: url('https://i.postimg.cc/k488sB2b/smokeybackground-N-x2.jpg');
+	background-size: auto;
+	background-repeat: repeat-y;}
+
+
+/* Change the logo below, do the same as before with the ttf and bkg */
+#logo,
+#logo.power_logo1,
+#logo.power_logo2,
+#logo.power_logo3 {
+	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/masseffectlogo.png') no-repeat center;
+	top: 0px;
+	border-bottom-color: #303030;}
+
+/* Now this is the more tedious part, look at all the values and copy any that are */
+/* different to below so that they match the game theme you want */
+#menu {
+	font-family: MassEffect;
+	font-size: 1.1em;
+	font-weight: normal;}
+#menu ul {
+	max-width: 1100px;
+	margin-top: -6px;
+	text-transform: lowercase}
+#menu ul a {color: #fff !important;}
+#menu ul a:hover {color: rgb(238,197,193) !important;}
+
+.alertbar a {color: #FFF;}
+#userinfo {
+	background-color: rgba(20,0,80,.15);
+	border-bottom-color: #404040;}
+
+#userinfo #userinfo_username .donateico {
+	margin-top: 31px;
+	margin-left: 0px;
+	display: inline-block;}
+#userinfo #userinfo_username .donateico a {
+	font-family: MassEffect;
+	font-size: 1.1em;}
+#userinfo #userinfo_username .donateico a:hover {color: rgb(238,197,193) !important;}
