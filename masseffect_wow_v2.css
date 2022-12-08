@@ -1,0 +1,55 @@
+/* Mass Effect bg+font and WOW logo Game Room draft */
+@import url('https://gazellegames.net/static/styles/game_room/style.css');			/* Main style from Gameroom */												
+@import url('https://gazellegames.net/static/styles/game_room/caticons.css');		/* Category icons from Gameroom */
+@import url('https://gazellegames.net/static/styles/game_room/gamethemes.css');		/* Custom game/profile themes */
+@import url('https://gazellegames.net/static/styles/game_room/webLinks.css'); 		/* Weblink icons from Gameroom */
+
+
+/* Main CSS from games (imported) */
+
+font-face {
+	font-family: "MassEffect";
+	src: url('https://gazellegames.net/static/styles/game_room/fonts/masseffect.ttf');}
+
+body {
+    background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/masseffectbkg.jpg') top;
+    background-size: cover;
+    background-attachment: fixed;}
+
+.box, table {
+	background: url('https://i.postimg.cc/k488sB2b/smokeybackground-N-x2.jpg');
+	background-size: auto;
+	background-repeat: repeat-y;}
+
+#logo,
+#logo.power_logo1,
+#logo.power_logo2,
+#logo.power_logo3 {
+	background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/masseffectlogo.png') no-repeat center;
+	top: 0px;
+	border-bottom-color: #303030;}
+
+#menu {
+	font-family: MassEffect;
+	font-size: 1.1em;
+	font-weight: normal;}
+#menu ul {
+	max-width: 1100px;
+	margin-top: -6px;
+	text-transform: lowercase}
+#menu ul a {color: #fff !important;}
+#menu ul a:hover {color: rgb(238,197,193) !important;}
+
+.alertbar a {color: #FFF;}
+#userinfo {
+	background-color: rgba(20,0,80,.15);
+	border-bottom-color: #404040;}
+
+#userinfo #userinfo_username .donateico {
+	margin-top: 31px;
+	margin-left: 0px;
+	display: inline-block;}
+#userinfo #userinfo_username .donateico a {
+	font-family: MassEffect;
+	font-size: 1.1em;}
+#userinfo #userinfo_username .donateico a:hover {color: rgb(238,197,193) !important;}
