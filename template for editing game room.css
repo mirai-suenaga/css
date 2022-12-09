@@ -20,14 +20,14 @@ font-face {
 	font-family: "MassEffect";
 	src: url('https://gazellegames.net/static/styles/game_room/fonts/masseffect.ttf');}
 
-/* Find the font family and src url and edit them to here, below is from mass effect */
-/* do the same, change the bkg file */
+/* do the same below, change the bkg (background image) file to what you want */
 body {
     background: url('https://gazellegames.net/static/styles/game_room/images/gameseries/masseffectbkg.jpg') top;
     background-size: cover;
     background-attachment: fixed;}
 
-/* This is my custom upscaled background, you can change it if you want. But it's nice */
+/* This is my custom upscaled background (not game background, but the blue-greyish one behind posts and your user profile etc.) */
+/* you can change it if you want. But it's nice. Save a copy if you worry about postimg dying */
 .box, table {
 	background: url('https://i.postimg.cc/k488sB2b/smokeybackground-N-x2.jpg');
 	background-size: auto;
@@ -45,6 +45,7 @@ body {
 
 /* Now this is the more tedious part, look at all the values and copy any that are */
 /* different to below so that they match the game theme you want */
+/* Sometimes there can be other values like lowercase etc, if you want you can copy in the stuff too */
 #menu {
 	font-family: MassEffect;
 	font-size: 1.1em;
