@@ -28,6 +28,9 @@ body {
 
 /* This is my custom upscaled background (not game background, but the blue-greyish one behind posts and your user profile etc.) */
 /* you can change it if you want. But it's nice. Save a copy if you worry about postimg dying */
+/* The original was just a bit too pixelated for my liking... they also stretch it across the entire back frame of whatever object is there */
+/* If you want the original, then you can change the image back to https://gazellegames.net/static/styles/game_room/images/smokeybackground.jpg */
+/* And also remove "background-repeat: repeat-y;" and change background-size to "cover" instead of "auto" */
 .box, table {
 	background: url('https://i.postimg.cc/k488sB2b/smokeybackground-N-x2.jpg');
 	background-size: auto;
