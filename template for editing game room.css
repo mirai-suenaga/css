@@ -73,3 +73,7 @@ body {
 	font-family: MassEffect;
 	font-size: 1.1em;}
 #userinfo #userinfo_username .donateico a:hover {color: rgb(238,197,193) !important;}
+
+/* Once you are done, you'll need to host this on github and then make the link into jsdlivr so that ggn can use it. */
+/* This can do the conversion it seems if you want it done automatically: https://www.jsdelivr.com/github */
+/* Or you can maybe use backblaze B2 free plan (create public bucket), the positive of which is edits are instant unlike jsdelivr */
